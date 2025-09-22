@@ -8,8 +8,8 @@ def secret_number():
 
 def check_guess(secret: int, guess: int) -> str:
     if guess < secret:
-        return "Мало"
+        return "Маловато"
     elif guess > secret:
-        return "Очень много"
+        return "Перебрали"
     else:
         return "Оооочень Верно"
