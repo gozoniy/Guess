@@ -12,4 +12,4 @@ def check_guess(secret: int, guess: int) -> str:
     elif guess > secret:
         return "Очень много"
     else:
-        return "Верно"
+        return "Оооочень Верно"
