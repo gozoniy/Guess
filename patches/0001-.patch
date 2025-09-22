@@ -1,0 +1,52 @@
+From a83735ba8ff35143afd722b8de0cfde741312156 Mon Sep 17 00:00:00 2001
+From: Chekushka <sokolovmark94@gmail.com>
+Date: Mon, 22 Sep 2025 17:12:00 +0700
+Subject: [PATCH 1/2] =?UTF-8?q?=D0=92=D0=B7=D0=BB=D0=BE=D0=BC=20=D0=B8?=
+ =?UTF-8?q?=D0=B3=D1=80=D1=8B=20=D0=BE=D1=82=20=20=D0=9C=D0=B0=D1=80=D0=BA?=
+ =?UTF-8?q?=D0=B0=20=D0=A1=D0=BE=D0=BA=D0=BE=D0=BB=D0=BE=D0=B2=D0=B0?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ __pycache__/logic.cpython-313.pyc | Bin 707 -> 710 bytes
+ game.py                           |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/__pycache__/logic.cpython-313.pyc b/__pycache__/logic.cpython-313.pyc
+index a6f7195c62195e2d5ca198eb34ece3c15481d822..cab8210c90414b8a813bbcbd6df8c78569c6af67 100644
+GIT binary patch
+delta 370
+zcmX@idW@C#GcPX}0}vdSznGCekvEJT#LIlaJTYsc`7M=XtC-N@)S_ZA8RL>#oL!P%
+z5aV8&T3j5Hlb@cMtXEKZi?=v6xhS<HKCd)4DYdAGXL10e0wdStLdKAK0ia<Q=3Llt
+zVfTf77dBnkaIxvazEUBO;QR|)FE(7*dSN4w1WE5Gl?DmV1F8eUi|s(Ey%&2FE=&Te
+z+k0VO5hqYylc|UoNEPt`iDD)op`cL24Ww>yCugK4XUC_5Tvj9q6alF&juQov4GcHf
+zd7A5P@GIWn<m;BZ!LR&)U#AG<O-=S9Rv=Zx4k9=}1P_q7#hjT}a*MgRqzG&f*j})5
+zh)o<ex%nxjIjMF<B9j}L#B}%@xNh(YHgJ7nVPrJ=z{bX?JA?TH1CUza45n5%e+BWt
+GCIA2}GkOsK
+
+delta 420
+zcmXv~JxIeq7)?z7(`)>}K`PR<4nlPksYAQDi8>t=OppF2;Vwa3Y}CyTQe7N6h&VV3
+z;v{wvoiDhA=+M=z__O<6#Djb9-gn>k?r|^CrzrYDC?&yqR=j$-k9OiRh>xn&Z}z+2
+z>u}ar@irrrVFwVG32WJ=g)KsfVKU6G_`P@N9eF*xf(^2_MVP%wEEBiQT0>v5_5;L-
+zPKjMHoX#$x6oF+7Hk$!(rFV7ew0Ke+EM7NX)dG(cs0#HUCWg+jywOd7<O6=oANbG_
+zNkKgFA;0^VXAr;@B`R+76Ep)vH2^jNkjv3DP@w8{qPHqFhcHH`p^_9GvjDE-$J56L
+zzBcD4Gra|0%Z{{c7$YC2U6GZF5L66=@dKq{*nz@q8XAS~hW&ppCDuA-)oGI=74G6Y
+rSpi_I$g=z<p%KcsDIZO`sn3WkFOOp}dHzBfOF);UkZwvpLWP#U=~#QX
+
+diff --git a/game.py b/game.py
+index 975ad3a..bd68ae9 100644
+--- a/game.py
++++ b/game.py
+@@ -1,7 +1,7 @@
+ from logic import secret_number, check_guess, MIN_NUMBER, MAX_NUMBER
+ 
+ def main():
+-    print(f"Добро пожаловать! Я загадал число от {MIN_NUMBER} до {MAX_NUMBER}.")
++    print(f"Добро пожаловать, Ваша игра взломана! Вы никогда не угадаете число.")
+     s = secret_number()
+     attempts = 0
+     while True:
+-- 
+2.50.0.windows.2
+

@@ -2,6 +2,8 @@ from logic import secret_number, check_guess, MIN_NUMBER, MAX_NUMBER
 
 def main():
     print(f"Добро пожаловать, Ваша игра взломана! Вы никогда не угадаете число.")
+    print(f"Какой-то вывод.")
+
     s = secret_number()
     attempts = 0
     while True:
