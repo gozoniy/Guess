@@ -1,6 +1,6 @@
 import random
 
-MIN_NUMBER = 1
+MIN_NUMBER = 10
 MAX_NUMBER = 1000
 
 def secret_number():
