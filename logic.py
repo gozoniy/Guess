@@ -1,7 +1,7 @@
 import random
 
-MIN_NUMBER = 1
-MAX_NUMBER = 100
+MIN_NUMBER = 10
+MAX_NUMBER = 1000
 
 def secret_number():
     return random.randint(MIN_NUMBER, MAX_NUMBER)
